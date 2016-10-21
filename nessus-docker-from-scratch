@@ -1,0 +1,4 @@
+FROM kherrett/nessus681
+ADD nessus.sh /root/
+ENTRYPOINT ["/root/nessus.sh"]
+
