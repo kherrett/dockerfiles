@@ -1,0 +1,4 @@
+FROM kherrett/nessus_agent
+COPY nessus_agent.sh /root/
+ENTRYPOINT ["/root/nessus_agent.sh"]
+
