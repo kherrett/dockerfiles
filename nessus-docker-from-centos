@@ -1,0 +1,14 @@
+#Use the base CentOS build as the foundation
+FROM centos/latest
+
+#This should be a link to the RPM installer
+ADD <nessus RPM link>
+
+#Add the latest version of the entrypoint script
+ADD https://github.com/kherrett/dockerscripts/raw/master/nessus.sh /root/
+
+#Install Nessus
+RUN yum install -y <nessus RPM>
+
+#Set the entrypoint
+ENTRYPOINT ["/root/nessus.sh"]
