@@ -1,4 +1,5 @@
 FROM kherrett/nessus681
-ADD nessus.sh /root/
+ADD https://github.com/kherrett/dockerscripts/raw/master/nessus.sh /root/
+RUN chmod +x /root/nessus.sh
 ENTRYPOINT ["/root/nessus.sh"]
 
