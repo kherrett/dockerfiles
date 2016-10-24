@@ -8,11 +8,11 @@ services:
     image: kherrett/nessus681
     environment:
         - scanner_name=NY-Office-BLDG-1-Scanner
-nessus_scanner:
+ nessus_scanner:
     image: kherrett/nessus681
     environment:
         - scanner_name=NY-Office-BLDG-2-Scanner
-nessus_scanner:
+ nessus_scanner:
     image: kherrett/nessus681
     environment:
         - scanner_name=NY-Office-BLDG-3-Scanner
@@ -32,24 +32,24 @@ nessus_scanner:
     image: kherrett/nessus681
     environment:
         - scanner_name=India-Office-Scanner-01
-nessus_scanner:
+ nessus_scanner:
     image: kherrett/nessus681
     environment:
         - scanner_name=India-Office-Scanner-02
 
-nessus_agent:
+ nessus_agent:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-001
-nessus_agent:
+ nessus_agent:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-002
-nessus_agent:
+ nessus_agent:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-003
-nessus_agent:
+ nessus_agent:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-004
@@ -61,7 +61,7 @@ nessus_agent:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-006
-nessus_agent:
+ nessus_agent:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-007
