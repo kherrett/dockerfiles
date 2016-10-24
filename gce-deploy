@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nessus_agent_pod
+spec:
+  containers:
+    - name: nessus_agent_001
+      image: gcr.io/wide-hold-146916/nessus_agent
+      env:
+        - agent_name=GCE-NY-Unix-Agent-001
+  containers:
+    - name: nessus_agent_002
+      image: gcr.io/wide-hold-146916/nessus_agent
+      env:
+        - agent_name=GCE-NY-Unix-Agent-002
