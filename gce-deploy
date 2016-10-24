@@ -7,9 +7,13 @@ spec:
     - name: nessus_agent_001
       image: gcr.io/wide-hold-146916/nessus_agent
       env:
-        - agent_name=GCE-NY-Unix-Agent-001
+      - 
+          name: agent_name
+          value: GCE-NY-Unix-Agent-001
   containers:
     - name: nessus_agent_002
       image: gcr.io/wide-hold-146916/nessus_agent
       env:
-        - agent_name=GCE-NY-Unix-Agent-002
+      - 
+          name: agent_name
+          value: GCE-NY-Unix-Agent-002
