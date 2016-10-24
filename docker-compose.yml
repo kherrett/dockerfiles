@@ -1,79 +1,79 @@
 version: '2'
 services:
- nessus_scanner:
+ nessus_scanner01:
     image: kherrett/nessus681
     environment:
         - scanner_name=Canada-Office-Scanner
- nessus_scanner:
+ nessus_scanner02:
     image: kherrett/nessus681
     environment:
         - scanner_name=NY-Office-BLDG-1-Scanner
- nessus_scanner:
+ nessus_scanner03:
     image: kherrett/nessus681
     environment:
         - scanner_name=NY-Office-BLDG-2-Scanner
- nessus_scanner:
+ nessus_scanner04:
     image: kherrett/nessus681
     environment:
         - scanner_name=NY-Office-BLDG-3-Scanner
- nessus_scanner:
+ nessus_scanner05:
     image: kherrett/nessus681
     environment:
         - scanner_name=Singapore-HQ-Scanner-01
- nessus_scanner:
+ nessus_scanner06:
     image: kherrett/nessus681
     environment:
         - scanner_name=Singapore-HQ-Scanner-02
- nessus_scanner:
+ nessus_scanner07:
     image: kherrett/nessus681
     environment:
         - scanner_name=Germany-Office
- nessus_scanner:
+ nessus_scanner08:
     image: kherrett/nessus681
     environment:
         - scanner_name=India-Office-Scanner-01
- nessus_scanner:
+ nessus_scanner09:
     image: kherrett/nessus681
     environment:
         - scanner_name=India-Office-Scanner-02
 
- nessus_agent:
+ nessus_agent01:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-001
- nessus_agent:
+ nessus_agent02:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-002
- nessus_agent:
+ nessus_agent03:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-003
- nessus_agent:
+ nessus_agent04:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-004
- nessus_agent:
+ nessus_agent05:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-005
- nessus_agent:
+ nessus_agent06:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-006
- nessus_agent:
+ nessus_agent07:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-007
- nessus_agent:
+ nessus_agent08:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-008
- nessus_agent:
+ nessus_agent09:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-009
- nessus_agent:
+ nessus_agent10:
     image: kherrett/nessus_agent
     environment:
         - agent_name=NY-Unix-Agent-010
