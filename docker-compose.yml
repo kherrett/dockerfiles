@@ -1,9 +1,11 @@
-nessus_scanner:
-  image: kherrett/nessus681
-	environment:
-    - scanner_name=Test_Scanner_Compose
+version: '2'
+services:
+ nessus_scanner:
+    image: kherrett/nessus681
+    environment:
+        - scanner_name=Test_Scanner_Compose
 
-nessus_agent:
-  image: kherrett/nessus_agent
-	environment:
-    - agent_name=Test_Agent_Compose
+ nessus_agent:
+    image: kherrett/nessus_agent
+    environment:
+        - agent_name=Test_Agent_Compose
