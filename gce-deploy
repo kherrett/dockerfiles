@@ -5,15 +5,15 @@ metadata:
 spec:
   containers:
     - name: nessus_agent_001
-      image: gcr.io/wide-hold-146916/nessus_agent
+      image: "gcr.io/wide-hold-146916/nessus_agent:latest"
       env:
       - 
           name: agent_name
-          value: GCE-NY-Unix-Agent-001
+          value: "GCE-NY-Unix-Agent-001"
   containers:
     - name: nessus_agent_002
-      image: gcr.io/wide-hold-146916/nessus_agent
+      image: "gcr.io/wide-hold-146916/nessus_agent:latest"
       env:
       - 
           name: agent_name
-          value: GCE-NY-Unix-Agent-002
+          value: "GCE-NY-Unix-Agent-002"
