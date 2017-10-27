@@ -1,1 +1,1 @@
-FROM ubuntu/ubuntu:14.04.4
+FROM hub.docker.com:443/ubuntu:12.04
