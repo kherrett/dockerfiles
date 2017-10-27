@@ -1,1 +1,1 @@
-FROM index.docker.io:443/ubuntu:12.04
+FROM index.docker.io:443/ubuntu/ubuntu:12.04
