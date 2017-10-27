@@ -1,1 +1,1 @@
-FROM hub.docker.com:5000/ubuntu:12.04
+FROM index.docker.io:443/ubuntu:12.04
